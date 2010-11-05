@@ -1,0 +1,5 @@
+h3. GSerializer
+
+GSerializer is a object to XML serializer written in groovy. It's pretty simple. All you need to do is instantiating GSerializer and call the serialize method by passing the object that you wanna serialize. Anyways, just check the examples folder to see more about the usage.
+
+pre. def serialized = new GSerializer().serialize( new Something() )
